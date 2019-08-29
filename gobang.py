@@ -246,6 +246,7 @@ def main():
 					if(mode!='man-man'):
 						menu=0
 						mode='man-man'
+						player_chess=0
 						board.reset()
 						gameover=True
 						is_black=True
